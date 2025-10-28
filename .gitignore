@@ -1,0 +1,10 @@
+.vscode
+yolov8n.pt
+
+venv/
+.pyc
+__pycache__/
+
+#django database
+db.sqlite3
+/Server/ml_engine/weights
