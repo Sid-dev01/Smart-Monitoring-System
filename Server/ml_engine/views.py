@@ -1,8 +1,8 @@
 from django.shortcuts import render
 
 # Create your views here.
-from restframework.decorators import api_view
-from restframework.response import Response
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
 from rest_framework import status
 import threading
 from .tasks import process_video_task

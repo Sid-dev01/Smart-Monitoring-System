@@ -26,7 +26,7 @@ def process_video_task():
 
     # 2. Define File Paths
     input_video_path = os.path.join(settings.BASE_DIR, 'media', 'trial2.mp4')
-    output_video_name = 'final_demo.avi' # Use .avi for XVID
+    output_video_name = 'final_demo.mp4' # Use .avi for XVID
     output_video_path = os.path.join(settings.MEDIA_ROOT, output_video_name)
 
     # 3. Clean up old file (if it exists)
@@ -44,7 +44,7 @@ def process_video_task():
     frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     fps = int(cap.get(cv2.CAP_PROP_FPS))
     
-    fourcc = cv2.VideoWriter_fourcc(*'XVID')
+    fourcc = cv2.VideoWriter_fourcc(*'avc1')
     out = cv2.VideoWriter(output_video_path, fourcc, fps, (frame_width, frame_height))
     
     if not out.isOpened():

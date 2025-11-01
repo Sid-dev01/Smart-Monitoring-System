@@ -2,7 +2,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, Users, TrendingUp, Award, Activity } from 'lucide-react';
 import { useStore } from '../store/useStore';
 import { useEffect, useState } from 'react';
-import { getLiveMetrics, getDemoVideo } from '../utils/mockApi';
+// import { getLiveMetrics} from '../utils/mockApi';
+
+const PROCESSED_VIDEO_URL = 'http://127.0.0.1:8000/media/final_demo1.mp4';
 
 const MetricCard = ({ icon: Icon, label, value, trend }) => {
   return (
@@ -40,7 +42,7 @@ const DemoModal = () => {
   useEffect(() => {
     if (isDemoModalOpen) {
       // Load demo video
-      getDemoVideo().then(data => setVideoUrl(data.videoUrl));
+      setVideoUrl(PROCESSED_VIDEO_URL);
 
       // Initial metrics load
       loadMetrics();

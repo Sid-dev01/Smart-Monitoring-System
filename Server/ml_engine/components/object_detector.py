@@ -10,11 +10,12 @@ DISENGAGED_CLASSES = [
     'Using_phone', 'bend', 'bow_head', 'sleep', 'turn_head'
 ]
 
+yolo_path = r'C:\Users\Siddhartha\OneDrive\Documents\Github Project\Full Stack + AI\Monitoring System\Server\weights/best.pt'
 # --- 2. Load Your Model ---
-model = YOLO('best.pt')  # <-- Make sure this path is correct
+model = YOLO(yolo_path)  # <-- Make sure this path is correct
 
 # --- 3. Open Your Input Video ---
-video_path = r'C:\Users\Siddhartha\OneDrive\Documents\Github Project\Full Stack + AI\Monitoring System\Server\ml_engine\components\trial2.mp4'  # <-- MAKE SURE THIS FILENAME IS 100% CORRECT
+video_path = r'C:\Users\Siddhartha\OneDrive\Documents\Github Project\Full Stack + AI\Monitoring System\Server\media\trial2.mp4'  # <-- MAKE SURE THIS FILENAME IS 100% CORRECT
 cap = cv2.VideoCapture(video_path)
 
 # --- NEW: DEBUGGING STEP 1 ---
@@ -37,8 +38,8 @@ fps = int(cap.get(cv2.CAP_PROP_FPS))
 print(f"Input Video Properties: Width={frame_width}, Height={frame_height}, FPS={fps}")
 
 # We will use the reliable 'XVID' codec and '.avi' format
-fourcc = cv2.VideoWriter_fourcc(*'XVID')
-output_video_path = 'final_demo2.avi'  # Note the .avi extension
+fourcc = cv2.VideoWriter_fourcc(*'avc1')
+output_video_path = r'C:\Users\Siddhartha\OneDrive\Documents\Github Project\Full Stack + AI\Monitoring System\Server\media/final_demo1.mp4'  # Note the .avi extension
 out = cv2.VideoWriter(output_video_path, fourcc, fps, (frame_width, frame_height))
 
 # --- NEW: DEBUGGING STEP 3 ---
@@ -86,7 +87,7 @@ while cap.isOpened():
     annotated_frame = results[0].plot(img=frame)
     
     score_text = f"Engagement: {engagement_score:.1f}%"
-    cv2.putText(annotated_frame, score_text, (20, 40),
+    cv2.putText(annotated_frame, score_text, (20, 90),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 3)
 
     # --- NEW: DEBUGGING STEP 4 ---
