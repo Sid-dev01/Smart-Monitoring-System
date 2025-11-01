@@ -57,7 +57,7 @@ const StatsSection = () => {
     { label: 'Training Institutions', value: 5, suffix: '+' },
     { label: 'Sessions Images Analyzed', value: 2000, suffix: '+' },
     { label: 'AI Accuracy', value: 75, suffix: '%' },
-    { label: 'User Satisfaction', value: 0, suffix: '%' },
+    // { label: 'User Satisfaction', value: 0, suffix: '%' },
   ];
 
   return (
@@ -78,7 +78,7 @@ const StatsSection = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
           {stats.map((stat, index) => (
             <motion.div
               key={stat.label}
