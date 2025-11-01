@@ -14,7 +14,7 @@ DISENGAGED_CLASSES = [
 model = YOLO('best.pt')  # <-- Make sure this path is correct
 
 # --- 3. Open Your Input Video ---
-video_path = r'C:\Users\Siddhartha\OneDrive\Documents\Github Project\Full Stack + AI\Monitoring System\Server\ml_engine\components\trial_video.mp4'  # <-- MAKE SURE THIS FILENAME IS 100% CORRECT
+video_path = r'C:\Users\Siddhartha\OneDrive\Documents\Github Project\Full Stack + AI\Monitoring System\Server\ml_engine\components\trial2.mp4'  # <-- MAKE SURE THIS FILENAME IS 100% CORRECT
 cap = cv2.VideoCapture(video_path)
 
 # --- NEW: DEBUGGING STEP 1 ---
@@ -38,7 +38,7 @@ print(f"Input Video Properties: Width={frame_width}, Height={frame_height}, FPS=
 
 # We will use the reliable 'XVID' codec and '.avi' format
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-output_video_path = 'final_demo.avi'  # Note the .avi extension
+output_video_path = 'final_demo2.avi'  # Note the .avi extension
 out = cv2.VideoWriter(output_video_path, fourcc, fps, (frame_width, frame_height))
 
 # --- NEW: DEBUGGING STEP 3 ---
@@ -86,8 +86,8 @@ while cap.isOpened():
     annotated_frame = results[0].plot(img=frame)
     
     score_text = f"Engagement: {engagement_score:.1f}%"
-    cv2.putText(annotated_frame, score_text, (20, 70),
-                cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 255, 0), 3)
+    cv2.putText(annotated_frame, score_text, (20, 40),
+                cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 3)
 
     # --- NEW: DEBUGGING STEP 4 ---
     # We will print the shape of the *first frame only* to check for a size mismatch

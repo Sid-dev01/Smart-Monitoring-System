@@ -53,17 +53,17 @@ const FeaturesSection = () => {
     {
       icon: Brain,
       title: 'Smart Learning',
-      description: 'AI-powered recommendations help trainers improve their teaching methods based on historical data and best practices.',
+      description: 'AI-powered recommendations help trainers improve their teaching methods based on historical data and best practices.(In the near future)',
     },
     {
       icon: Users,
       title: 'Multi-user Dashboard',
-      description: 'Collaborative platform allowing administrators, trainers, and supervisors to access insights based on their role and permissions.',
+      description: 'Collaborative platform allowing administrators, trainers, and supervisors to access insights based on their role and permissions.(In the near future)',
     },
     {
       icon: Cloud,
       title: 'Cloud Integration',
-      description: 'Secure cloud infrastructure ensures your data is always accessible, backed up, and protected with enterprise-grade security.',
+      description: 'Secure cloud infrastructure ensures your data is always accessible, backed up, and protected with enterprise-grade security.(In the near future)',
     },
   ];
 

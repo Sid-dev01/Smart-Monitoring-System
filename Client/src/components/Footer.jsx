@@ -14,7 +14,7 @@ const Footer = () => {
                 <FaEye className="text-white text-xl" />
               </div>
               <span className="font-bold text-xl text-white">
-                Shiksha Surakhsha
+                Shiksha Suraksha
               </span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
@@ -71,7 +71,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-accent-400" />
-                <span className="text-sm">+91 9621287427</span>
+                <span className="text-sm">+91 962128XXXX</span>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-accent-400" />
@@ -84,7 +84,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Shiksha Surakhsha. All rights reserved.
+            © 2025 Shiksha Suraksha. All rights reserved.
           </p>
         </div>
       </div>

@@ -1,7 +1,8 @@
+// 
 import { motion } from 'framer-motion';
 import { Code, Brain, Server, Mail, Linkedin, Github } from 'lucide-react';
 
-const TeamMember = ({ name, role, category, icon: Icon, delay }) => {
+const TeamMember = ({ name, role, category, github_link, linkedin_link, mail_link, icon: Icon, delay }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -22,7 +23,7 @@ const TeamMember = ({ name, role, category, icon: Icon, delay }) => {
           <p className="text-sm text-gray-600 dark:text-gray-400">{role}</p>
         </div>
       </div>
-      
+
       <div className="mb-4">
         <span className="inline-block px-3 py-1 bg-accent-50 dark:bg-accent-900/20 text-accent-600 dark:text-accent-400 rounded-full text-sm font-medium">
           {category}
@@ -30,20 +31,31 @@ const TeamMember = ({ name, role, category, icon: Icon, delay }) => {
       </div>
 
       <div className="flex space-x-3">
+        {/* LinkedIn */}
         <a
-          href="#"
+          href={linkedin_link}
+          target="_blank"
+          rel="noopener noreferrer"
           className="p-2 bg-gray-100 dark:bg-gray-700 rounded-lg hover:bg-accent-100 dark:hover:bg-accent-900/20 transition-colors"
         >
           <Linkedin className="w-4 h-4 text-gray-600 dark:text-gray-400" />
         </a>
+
+        {/* GitHub */}
         <a
-          href="#"
+          href={github_link}
+          target="_blank"
+          rel="noopener noreferrer"
           className="p-2 bg-gray-100 dark:bg-gray-700 rounded-lg hover:bg-accent-100 dark:hover:bg-accent-900/20 transition-colors"
         >
           <Github className="w-4 h-4 text-gray-600 dark:text-gray-400" />
         </a>
+
+        {/* Mail */}
         <a
-          href="#"
+          href={mail_link}
+          target="_blank"
+          rel="noopener noreferrer"
           className="p-2 bg-gray-100 dark:bg-gray-700 rounded-lg hover:bg-accent-100 dark:hover:bg-accent-900/20 transition-colors"
         >
           <Mail className="w-4 h-4 text-gray-600 dark:text-gray-400" />
@@ -56,16 +68,57 @@ const TeamMember = ({ name, role, category, icon: Icon, delay }) => {
 const About = () => {
   const team = {
     frontend: [
-      { name: 'Riddhi Rastogi', role: 'React + UI/UX Engineer' },
-      { name: 'Priyanshi Raj', role: 'React + UI/UX Engineer' },
+      {
+        name: 'Riddhi Rastogi',
+        role: 'React + UI/UX Engineer',
+        github_link: 'https://github.com/Riddhi-Rastogi',
+        linkedin_link:
+          'https://www.linkedin.com/in/riddhi-rastogi-38b11032b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        mail_link: 'mailto:rids010171@gmail.com',
+      },
+      {
+        name: 'Priyanshi Raj',
+        role: 'React + UI/UX Engineer',
+        github_link: 'https://github.com/Priyanshi310504',
+        linkedin_link:
+          'https://www.linkedin.com/in/priyanshi-raj-513b20314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        mail_link: 'mailto:pgbypr@gmail.com',
+      },
     ],
     ml: [
-      { name: 'Siddhartha Gautam', role: 'Computer Vision Expert' },
-      { name: 'Nitin Jaiswal', role: 'Pose Estimation Specialist' },
+      {
+        name: 'Siddhartha Gautam',
+        role: 'Computer Vision Expert',
+        github_link: 'https://github.com/Sid-dev01',
+        linkedin_link:
+          'https://www.linkedin.com/in/siddhartha-gautam-259525287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        mail_link: 'mailto:sid.2005.19@gmail.com',
+      },
+      {
+        name: 'Nitin Jaiswal',
+        role: 'Pose Estimation Specialist',
+        github_link: 'https://github.com/nitinjswgithub066',
+        linkedin_link: 'https://www.linkedin.com/in/nitin-jaiswal-',
+        mail_link: 'mailto:nitinjsw066@gmail.com',
+      },
     ],
     backend: [
-      { name: 'Khushi Mishra', role: 'API & Infrastructure Engineer' },
-      { name: 'Ruchi Singh', role: 'Backend Developer' },
+      {
+        name: 'Khushi Mishra',
+        role: 'API & Infrastructure Engineer',
+        github_link: 'https://github.com/Khushi-Mishra-dev',
+        linkedin_link:
+          'https://www.linkedin.com/in/khushi-mishra-380b722b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        mail_link: 'mailto:mishrakhushi8081@gamil.com',
+      },
+      {
+        name: 'Ruchi Singh',
+        role: 'Backend Developer',
+        github_link: 'https://github.com/Ruchi-Singh25',
+        linkedin_link:
+          'https://www.linkedin.com/in/ruchi-singh-92983131a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        mail_link: 'mailto:ruchiisinghh1225@gmail.com',
+      },
     ],
   };
 
@@ -80,16 +133,18 @@ const About = () => {
           className="text-center mb-16"
         >
           <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            About <span className="bg-gradient-to-r from-accent-600 to-primary-600 bg-clip-text text-transparent">
+            About{' '}
+            <span className="bg-gradient-to-r from-accent-600 to-primary-600 bg-clip-text text-transparent">
               Shiksha Suraksha
             </span>
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            We're on a mission to revolutionize skill development through cutting-edge AI technology
+            We're on a mission to revolutionize skill development through
+            cutting-edge AI technology
           </p>
         </motion.div>
 
-        {/* Mission Statement */}
+        {/* Mission Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -99,9 +154,10 @@ const About = () => {
         >
           <h2 className="text-3xl font-bold mb-6 text-center">Our Mission</h2>
           <p className="text-xl text-center max-w-3xl mx-auto leading-relaxed opacity-95">
-            To improve training quality through AI-driven classroom monitoring, empowering educators 
-            with real-time insights and data-driven recommendations that enhance the learning experience 
-            and ensure every student reaches their full potential.
+            To improve training quality through AI-driven classroom monitoring,
+            empowering educators with real-time insights and data-driven
+            recommendations that enhance the learning experience and ensure every
+            student reaches their full potential.
           </p>
         </motion.div>
 
@@ -120,15 +176,18 @@ const About = () => {
             {[
               {
                 title: 'AI-Powered Analysis',
-                description: 'Advanced computer vision and machine learning algorithms analyze classroom dynamics in real-time.',
+                description:
+                  'Advanced computer vision and machine learning algorithms analyze classroom dynamics in real-time.',
               },
               {
                 title: 'Actionable Insights',
-                description: 'Transform raw data into meaningful insights that help trainers improve their teaching methods.',
+                description:
+                  'Transform raw data into meaningful insights that help trainers improve their teaching methods.',
               },
               {
                 title: 'Quality Assurance',
-                description: 'Ensure consistent training quality across all sessions with automated monitoring and reporting.',
+                description:
+                  'Ensure consistent training quality across all sessions with automated monitoring and reporting.',
               },
             ].map((item, index) => (
               <motion.div
@@ -178,6 +237,9 @@ const About = () => {
                   name={member.name}
                   role={member.role}
                   category="Frontend"
+                  github_link={member.github_link}
+                  linkedin_link={member.linkedin_link}
+                  mail_link={member.mail_link}
                   icon={Code}
                   delay={index * 0.1}
                 />
@@ -201,6 +263,9 @@ const About = () => {
                   name={member.name}
                   role={member.role}
                   category="Machine Learning"
+                  github_link={member.github_link}
+                  linkedin_link={member.linkedin_link}
+                  mail_link={member.mail_link}
                   icon={Brain}
                   delay={index * 0.1}
                 />
@@ -224,6 +289,9 @@ const About = () => {
                   name={member.name}
                   role={member.role}
                   category="Backend"
+                  github_link={member.github_link}
+                  linkedin_link={member.linkedin_link}
+                  mail_link={member.mail_link}
                   icon={Server}
                   delay={index * 0.1}
                 />
@@ -248,7 +316,7 @@ const About = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="mailto:hello@smartskill.ai"
+              href="mailto:shi31raj@gmail.com"
               className="btn-primary flex items-center space-x-2"
             >
               <Mail className="w-5 h-5" />
