@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-roy@#^)5i67!&gv5ke$6)vdd+6tw(1t_=ob0qo6&)i9w)vv%ux
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['smart-monitoring-system.onrender.com']
 
 
 # Application definition

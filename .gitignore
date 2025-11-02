@@ -6,5 +6,4 @@ venv/
 __pycache__/
 
 #django database
-/Server/ml_engine/weights
 .env
