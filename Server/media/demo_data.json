@@ -2,14 +2,14 @@
   {
     "time": 0.0,
     "metrics": {
-      "student_count": 12,
+      "student_count": 8,
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "upright",
-        "writing",
+        "bow_head",
         "bend",
-        "bow_head"
+        "upright",
+        "writing"
       ]
     }
   },
@@ -17,13 +17,13 @@
     "time": 0.05,
     "metrics": {
       "student_count": 12,
-      "engagement": 50,
-      "student_score": 45,
+      "engagement": 42,
+      "student_score": 37,
       "activities": [
-        "upright",
-        "writing",
+        "bow_head",
         "bend",
-        "bow_head"
+        "upright",
+        "writing"
       ]
     }
   },
@@ -34,38 +34,38 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "upright",
-        "writing",
+        "bow_head",
         "bend",
-        "bow_head"
+        "upright",
+        "writing"
       ]
     }
   },
   {
     "time": 0.15000000000000002,
     "metrics": {
-      "student_count": 12,
-      "engagement": 50,
-      "student_score": 45,
+      "student_count": 11,
+      "engagement": 45,
+      "student_score": 40,
       "activities": [
-        "upright",
-        "writing",
+        "bow_head",
         "bend",
-        "bow_head"
+        "upright",
+        "writing"
       ]
     }
   },
   {
     "time": 0.2,
     "metrics": {
-      "student_count": 12,
-      "engagement": 50,
-      "student_score": 45,
+      "student_count": 11,
+      "engagement": 45,
+      "student_score": 40,
       "activities": [
-        "upright",
-        "writing",
+        "bow_head",
         "bend",
-        "bow_head"
+        "upright",
+        "writing"
       ]
     }
   },
@@ -76,10 +76,10 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "upright",
-        "writing",
+        "bow_head",
         "bend",
-        "bow_head"
+        "upright",
+        "writing"
       ]
     }
   },
@@ -90,10 +90,10 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "upright",
-        "writing",
+        "bow_head",
         "bend",
-        "bow_head"
+        "upright",
+        "writing"
       ]
     }
   },
@@ -104,253 +104,254 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "upright",
-        "writing",
+        "bow_head",
         "bend",
-        "bow_head"
+        "upright",
+        "writing"
       ]
     }
   },
   {
     "time": 0.4,
     "metrics": {
-      "student_count": 12,
-      "engagement": 50,
-      "student_score": 45,
+      "student_count": 13,
+      "engagement": 54,
+      "student_score": 48,
       "activities": [
-        "upright",
-        "writing",
+        "bow_head",
         "bend",
-        "bow_head"
+        "upright",
+        "writing"
       ]
     }
   },
   {
     "time": 0.45,
     "metrics": {
-      "student_count": 12,
+      "student_count": 14,
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "upright",
-        "writing",
+        "bow_head",
         "bend",
-        "bow_head"
+        "upright",
+        "writing"
       ]
     }
   },
   {
     "time": 0.5,
     "metrics": {
-      "student_count": 13,
-      "engagement": 46,
-      "student_score": 41,
+      "student_count": 14,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
-        "upright",
-        "writing",
+        "bow_head",
         "bend",
-        "bow_head"
+        "upright",
+        "writing"
       ]
     }
   },
   {
     "time": 0.55,
     "metrics": {
-      "student_count": 13,
-      "engagement": 46,
-      "student_score": 41,
+      "student_count": 14,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
   {
     "time": 0.6000000000000001,
     "metrics": {
-      "student_count": 13,
-      "engagement": 46,
-      "student_score": 41,
+      "student_count": 14,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
   {
     "time": 0.65,
     "metrics": {
-      "student_count": 13,
-      "engagement": 46,
-      "student_score": 41,
+      "student_count": 15,
+      "engagement": 53,
+      "student_score": 48,
       "activities": [
-        "upright",
-        "writing",
+        "bow_head",
         "bend",
-        "bow_head"
+        "upright",
+        "writing"
       ]
     }
   },
   {
     "time": 0.7000000000000001,
     "metrics": {
-      "student_count": 14,
-      "engagement": 43,
-      "student_score": 38,
+      "student_count": 16,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head"
       ]
     }
   },
   {
     "time": 0.75,
     "metrics": {
-      "student_count": 14,
-      "engagement": 43,
-      "student_score": 38,
+      "student_count": 16,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head"
       ]
     }
   },
   {
     "time": 0.8,
     "metrics": {
-      "student_count": 14,
-      "engagement": 43,
-      "student_score": 38,
+      "student_count": 16,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
   {
     "time": 0.8500000000000001,
     "metrics": {
-      "student_count": 15,
-      "engagement": 47,
-      "student_score": 42,
+      "student_count": 16,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
   {
     "time": 0.9,
     "metrics": {
-      "student_count": 15,
-      "engagement": 47,
-      "student_score": 42,
+      "student_count": 16,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
   {
     "time": 0.9500000000000001,
     "metrics": {
-      "student_count": 15,
-      "engagement": 47,
-      "student_score": 42,
+      "student_count": 16,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
   {
     "time": 1.0,
     "metrics": {
-      "student_count": 15,
-      "engagement": 47,
-      "student_score": 42,
+      "student_count": 16,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
   {
     "time": 1.05,
     "metrics": {
-      "student_count": 15,
-      "engagement": 47,
-      "student_score": 42,
+      "student_count": 16,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
   {
     "time": 1.1,
     "metrics": {
-      "student_count": 15,
-      "engagement": 47,
-      "student_score": 42,
+      "student_count": 16,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
   {
     "time": 1.1500000000000001,
     "metrics": {
-      "student_count": 14,
-      "engagement": 50,
-      "student_score": 45,
+      "student_count": 15,
+      "engagement": 53,
+      "student_score": 48,
       "activities": [
-        "reading",
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
@@ -361,12 +362,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
@@ -377,12 +378,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
@@ -393,12 +394,12 @@
       "engagement": 53,
       "student_score": 48,
       "activities": [
-        "reading",
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
@@ -409,12 +410,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
@@ -425,29 +426,29 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
   {
     "time": 1.4500000000000002,
     "metrics": {
-      "student_count": 14,
-      "engagement": 50,
-      "student_score": 45,
+      "student_count": 13,
+      "engagement": 46,
+      "student_score": 41,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -458,11 +459,11 @@
       "engagement": 57,
       "student_score": 51,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
+        "writing",
         "bow_head",
-        "writing"
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -473,12 +474,12 @@
       "engagement": 53,
       "student_score": 48,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -489,12 +490,12 @@
       "engagement": 53,
       "student_score": 48,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -505,12 +506,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -521,12 +522,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -537,12 +538,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -553,12 +554,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -569,12 +570,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -585,12 +586,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -601,12 +602,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -617,12 +618,12 @@
       "engagement": 44,
       "student_score": 39,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -633,12 +634,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -649,12 +650,12 @@
       "engagement": 44,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -665,12 +666,12 @@
       "engagement": 44,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -681,12 +682,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -697,12 +698,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -713,12 +714,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -729,13 +730,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -746,13 +747,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -763,13 +764,13 @@
       "engagement": 44,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -780,13 +781,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -797,13 +798,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -814,30 +815,30 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
   {
     "time": 2.6500000000000004,
     "metrics": {
-      "student_count": 19,
-      "engagement": 47,
-      "student_score": 42,
+      "student_count": 20,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -848,13 +849,13 @@
       "engagement": 45,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -865,13 +866,13 @@
       "engagement": 45,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -882,13 +883,13 @@
       "engagement": 42,
       "student_score": 37,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -899,13 +900,13 @@
       "engagement": 45,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -916,13 +917,13 @@
       "engagement": 35,
       "student_score": 31,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -933,13 +934,13 @@
       "engagement": 38,
       "student_score": 34,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -950,13 +951,13 @@
       "engagement": 37,
       "student_score": 33,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -967,13 +968,13 @@
       "engagement": 39,
       "student_score": 35,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -984,12 +985,12 @@
       "engagement": 41,
       "student_score": 37,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1000,12 +1001,12 @@
       "engagement": 41,
       "student_score": 37,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1016,12 +1017,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1032,12 +1033,12 @@
       "engagement": 44,
       "student_score": 39,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1048,12 +1049,12 @@
       "engagement": 44,
       "student_score": 39,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1064,12 +1065,12 @@
       "engagement": 41,
       "student_score": 37,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1080,28 +1081,28 @@
       "engagement": 41,
       "student_score": 37,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
   {
     "time": 3.45,
     "metrics": {
-      "student_count": 17,
-      "engagement": 47,
-      "student_score": 42,
+      "student_count": 18,
+      "engagement": 50,
+      "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1112,12 +1113,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1128,12 +1129,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1144,12 +1145,12 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1160,12 +1161,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1176,12 +1177,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1192,12 +1193,12 @@
       "engagement": 44,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1208,12 +1209,12 @@
       "engagement": 44,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1224,11 +1225,11 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
+        "writing",
         "bow_head",
-        "writing"
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1239,12 +1240,12 @@
       "engagement": 44,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1255,11 +1256,11 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
+        "writing",
         "bow_head",
-        "writing"
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1270,11 +1271,11 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
+        "writing",
         "bow_head",
-        "writing"
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1285,12 +1286,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1301,12 +1302,12 @@
       "engagement": 64,
       "student_score": 57,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1317,13 +1318,13 @@
       "engagement": 56,
       "student_score": 50,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1334,13 +1335,13 @@
       "engagement": 56,
       "student_score": 50,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1351,13 +1352,13 @@
       "engagement": 56,
       "student_score": 50,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1368,13 +1369,13 @@
       "engagement": 56,
       "student_score": 50,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1385,13 +1386,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1402,13 +1403,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1419,13 +1420,13 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1436,14 +1437,14 @@
       "engagement": 53,
       "student_score": 48,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1454,14 +1455,14 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1472,13 +1473,13 @@
       "engagement": 56,
       "student_score": 50,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
@@ -1489,13 +1490,13 @@
       "engagement": 58,
       "student_score": 52,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "reading"
       ]
     }
   },
@@ -1506,14 +1507,14 @@
       "engagement": 55,
       "student_score": 49,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1524,14 +1525,14 @@
       "engagement": 55,
       "student_score": 49,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1542,14 +1543,14 @@
       "engagement": 58,
       "student_score": 52,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1560,14 +1561,14 @@
       "engagement": 55,
       "student_score": 49,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1578,14 +1579,14 @@
       "engagement": 55,
       "student_score": 49,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1596,14 +1597,14 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1614,14 +1615,14 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1632,14 +1633,14 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1650,14 +1651,14 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1668,14 +1669,14 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1686,14 +1687,14 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1704,13 +1705,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1721,13 +1722,13 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1738,13 +1739,13 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1755,13 +1756,13 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1772,13 +1773,13 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1789,13 +1790,13 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1806,13 +1807,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1823,13 +1824,13 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1840,13 +1841,13 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1857,13 +1858,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1874,13 +1875,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1891,13 +1892,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1908,13 +1909,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1925,13 +1926,13 @@
       "engagement": 52,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1942,13 +1943,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1959,13 +1960,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1976,13 +1977,13 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -1993,13 +1994,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2010,13 +2011,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2027,13 +2028,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2044,13 +2045,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2061,13 +2062,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2078,13 +2079,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2095,13 +2096,13 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2112,13 +2113,13 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2129,13 +2130,13 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2146,12 +2147,12 @@
       "engagement": 56,
       "student_score": 50,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
+        "writing",
         "bow_head",
-        "writing"
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2162,13 +2163,13 @@
       "engagement": 44,
       "student_score": 39,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2179,13 +2180,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2196,13 +2197,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2213,13 +2214,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2230,13 +2231,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2247,13 +2248,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2264,13 +2265,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2281,13 +2282,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2298,13 +2299,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2315,13 +2316,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2332,12 +2333,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2348,12 +2349,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2364,12 +2365,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2380,12 +2381,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2396,13 +2397,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2413,13 +2414,13 @@
       "engagement": 56,
       "student_score": 50,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2430,13 +2431,13 @@
       "engagement": 56,
       "student_score": 50,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2447,13 +2448,13 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2464,13 +2465,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2481,14 +2482,14 @@
       "engagement": 60,
       "student_score": 54,
       "activities": [
-        "reading",
         "upright",
         "raise_head",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2499,13 +2500,13 @@
       "engagement": 60,
       "student_score": 54,
       "activities": [
-        "reading",
         "upright",
         "raise_head",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2516,13 +2517,13 @@
       "engagement": 56,
       "student_score": 50,
       "activities": [
-        "reading",
         "upright",
         "raise_head",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2533,12 +2534,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2549,12 +2550,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2565,12 +2566,12 @@
       "engagement": 44,
       "student_score": 39,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2581,12 +2582,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2597,11 +2598,11 @@
       "engagement": 53,
       "student_score": 48,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
+        "writing",
         "bow_head",
-        "writing"
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2612,11 +2613,11 @@
       "engagement": 53,
       "student_score": 48,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
+        "writing",
         "bow_head",
-        "writing"
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2627,13 +2628,13 @@
       "engagement": 56,
       "student_score": 50,
       "activities": [
-        "reading",
         "upright",
         "raise_head",
         "book",
-        "turn_head",
+        "writing",
         "bow_head",
-        "writing"
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2644,13 +2645,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2661,13 +2662,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2678,13 +2679,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2695,13 +2696,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2712,14 +2713,14 @@
       "engagement": 41,
       "student_score": 37,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2730,13 +2731,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
         "book",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2747,12 +2748,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2763,12 +2764,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2779,12 +2780,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2795,12 +2796,12 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2811,12 +2812,12 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2827,12 +2828,12 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2843,12 +2844,12 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2859,12 +2860,12 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2875,12 +2876,12 @@
       "engagement": 53,
       "student_score": 47,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2891,13 +2892,13 @@
       "engagement": 50,
       "student_score": 45,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2908,13 +2909,13 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2925,12 +2926,12 @@
       "engagement": 47,
       "student_score": 42,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2941,13 +2942,13 @@
       "engagement": 44,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2958,13 +2959,13 @@
       "engagement": 42,
       "student_score": 37,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2975,13 +2976,13 @@
       "engagement": 42,
       "student_score": 37,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -2992,13 +2993,13 @@
       "engagement": 42,
       "student_score": 37,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -3009,12 +3010,12 @@
       "engagement": 44,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -3025,12 +3026,12 @@
       "engagement": 44,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -3041,12 +3042,12 @@
       "engagement": 44,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -3057,12 +3058,12 @@
       "engagement": 44,
       "student_score": 40,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -3074,10 +3075,10 @@
       "student_score": 35,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3089,10 +3090,10 @@
       "student_score": 35,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3104,10 +3105,10 @@
       "student_score": 35,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3119,10 +3120,10 @@
       "student_score": 37,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3134,10 +3135,10 @@
       "student_score": 37,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3149,11 +3150,11 @@
       "student_score": 37,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3165,11 +3166,11 @@
       "student_score": 31,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3181,11 +3182,11 @@
       "student_score": 26,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3197,11 +3198,11 @@
       "student_score": 26,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3213,11 +3214,11 @@
       "student_score": 31,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3229,11 +3230,11 @@
       "student_score": 31,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3245,11 +3246,11 @@
       "student_score": 31,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3261,11 +3262,11 @@
       "student_score": 29,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3277,11 +3278,11 @@
       "student_score": 29,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3292,13 +3293,13 @@
       "engagement": 33,
       "student_score": 29,
       "activities": [
-        "reading",
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head",
+        "reading"
       ]
     }
   },
@@ -3310,11 +3311,11 @@
       "student_score": 29,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3326,11 +3327,11 @@
       "student_score": 28,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3342,11 +3343,11 @@
       "student_score": 28,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3358,11 +3359,11 @@
       "student_score": 27,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3374,11 +3375,11 @@
       "student_score": 33,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3390,11 +3391,11 @@
       "student_score": 33,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3406,11 +3407,11 @@
       "student_score": 33,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3422,11 +3423,11 @@
       "student_score": 33,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3438,11 +3439,11 @@
       "student_score": 37,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3454,11 +3455,11 @@
       "student_score": 36,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3470,11 +3471,11 @@
       "student_score": 40,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3486,11 +3487,11 @@
       "student_score": 42,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3502,11 +3503,11 @@
       "student_score": 37,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3518,11 +3519,11 @@
       "student_score": 39,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3534,11 +3535,11 @@
       "student_score": 32,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3550,11 +3551,11 @@
       "student_score": 38,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   },
@@ -3566,11 +3567,11 @@
       "student_score": 32,
       "activities": [
         "upright",
-        "turn_head",
-        "bow_head",
         "bend",
         "Using_phone",
-        "writing"
+        "writing",
+        "bow_head",
+        "turn_head"
       ]
     }
   }
