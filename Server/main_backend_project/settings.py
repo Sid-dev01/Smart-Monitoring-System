@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-roy@#^)5i67!&gv5ke$6)vdd+6tw(1t_=ob0qo6&)i9w)vv%ux
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['smart-monitoring-system.onrender.com']
+ALLOWED_HOSTS = ['smart-monitoring-system.onrender.com',  # Your public backend URL
+    'localhost',
+    '127.0.0.1',]
 
 
 # Application definition
@@ -130,6 +132,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 MEDIA_URL = '/media/'
+
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000'
+]
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000'
