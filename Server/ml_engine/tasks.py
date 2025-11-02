@@ -1,8 +1,9 @@
-# ml_engine/tasks.py
+# Server/ml_engine/tasks.py
 import cv2
 import os
+import json  # <-- 1. Import JSON
 from django.conf import settings
-from .apps import MlEngineConfig  # Import the pre-loaded model
+from .apps import MlEngineConfig
 
 # Your engagement rules
 ENGAGED_CLASSES = [
@@ -14,8 +15,9 @@ DISENGAGED_CLASSES = [
 
 def process_video_task():
     """
-    This function contains your ML script logic.
-    It will be run in a background thread.
+    Processes the demo video and creates TWO files:
+    1. final_demo.mp4 (annotated video)
+    2. demo_data.json (metrics for each frame)
     """
     
     # 1. Get the pre-loaded model
@@ -26,25 +28,33 @@ def process_video_task():
 
     # 2. Define File Paths
     input_video_path = os.path.join(settings.BASE_DIR, 'media', 'trial2.mp4')
-    output_video_name = 'final_demo.mp4' # Use .avi for XVID
+    output_video_name = 'final_demo.mp4'  # Use .mp4
     output_video_path = os.path.join(settings.MEDIA_ROOT, output_video_name)
+    
+    # --- 3. NEW: Define JSON data path ---
+    output_json_name = 'demo_data.json'
+    output_json_path = os.path.join(settings.MEDIA_ROOT, output_json_name)
 
-    # 3. Clean up old file (if it exists)
+    # --- 4. NEW: Clean up *both* old files ---
+    # This is important so the frontend knows when the *new* file is ready
     if os.path.exists(output_video_path):
         os.remove(output_video_path)
+    if os.path.exists(output_json_path):
+        os.remove(output_json_path)
 
-    # 4. Open Video Reader
+    # 5. Open Video Reader
     cap = cv2.VideoCapture(input_video_path)
     if not cap.isOpened():
         print(f"Error: Could not open video file: {input_video_path}")
         return
 
-    # 5. Set up Video Writer
+    # 6. Set up Video Writer
     frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-    fps = int(cap.get(cv2.CAP_PROP_FPS))
+    fps = cap.get(cv2.CAP_PROP_FPS) # Get FPS as float
     
-    fourcc = cv2.VideoWriter_fourcc(*'avc1')
+    # Use the 'avc1' (H.264) codec, which is best for web browsers
+    fourcc = cv2.VideoWriter_fourcc(*'avc1') 
     out = cv2.VideoWriter(output_video_path, fourcc, fps, (frame_width, frame_height))
     
     if not out.isOpened():
@@ -52,29 +62,68 @@ def process_video_task():
         cap.release()
         return
 
-    print("--- Background task started: Processing video... ---")
+    print("--- Background task started: Processing video and metrics... ---")
     
-    # 6. Loop and Process Frames
+    # --- 7. NEW: List to store all metrics ---
+    all_metrics_data = []
+
+    # 8. Loop and Process Frames
     while cap.isOpened():
         success, frame = cap.read()
         if not success:
             break  # End of video
+        
+        # Get the current timestamp (in seconds)
+        current_time_sec = cap.get(cv2.CAP_PROP_POS_MSEC) / 1000.0
 
-        results = model(frame, verbose=False)
+        results = model.track(frame, persist=True, verbose=False)
         
         # Your engagement logic
-        engaged_count = 0
-        disengaged_count = 0
-        for box in results[0].boxes:
-            class_id = int(box.cls[0])
-            class_name = model.names[class_id]
-            if class_name in ENGAGED_CLASSES:
-                engaged_count += 1
-            elif class_name in DISENGAGED_CLASSES:
-                disengaged_count += 1
+        engaged_student_ids = set()
+        disengaged_student_ids = set()
+        all_detected_activities = set() # To store all unique behaviors
         
-        total_students = engaged_count + disengaged_count
+        if results[0].boxes.id is not None:
+            for box in results[0].boxes:
+                class_id = int(box.cls[0])
+                class_name = model.names[class_id]
+                student_id = int(box.id[0]) # Get the unique tracking ID
+                
+                all_detected_activities.add(class_name) # Add the behavior
+
+                if class_name in ENGAGED_CLASSES:
+                    engaged_student_ids.add(student_id)
+                elif class_name in DISENGAGED_CLASSES:
+                    disengaged_student_ids.add(student_id)
+        
+        # --- 9. NEW CALCULATION: ---
+        # This is the magic. We count a student as disengaged ONLY
+        # if they are in the disengaged set AND NOT in the engaged set.
+        # This gives priority to engagement.
+        truly_disengaged_ids = disengaged_student_ids - engaged_student_ids
+        
+        engaged_count = len(engaged_student_ids)
+        disengaged_count = len(truly_disengaged_ids)
+        
+        # Total students is the count of *all unique students* we saw a behavior from
+        total_students = len(engaged_student_ids.union(truly_disengaged_ids))
+        
         engagement_score = (engaged_count / total_students * 100) if total_students > 0 else 0
+        session_score = int(engagement_score * 0.9)
+        activities = list(all_detected_activities) # List of all unique behaviors seen
+
+        # --- 9. NEW: Store metrics for this timestamp ---
+        # This structure matches what your frontend expects
+        frame_metrics = {
+            "time": current_time_sec,
+            "metrics": {
+                "student_count": total_students,
+                "engagement": round(engagement_score),
+                "student_score": session_score,
+                "activities": activities
+            }
+        }
+        all_metrics_data.append(frame_metrics)
 
         # Draw boxes and score
         annotated_frame = results[0].plot(img=frame)
@@ -85,7 +134,11 @@ def process_video_task():
         # Write the frame
         out.write(annotated_frame)
 
-    # 7. Release Everything
+    # --- 10. NEW: Write the JSON file *after* the loop is done ---
+    with open(output_json_path, 'w') as f:
+        json.dump(all_metrics_data, f, indent=2)
+
+    # 11. Release Everything
     cap.release()
     out.release()
-    print(f"--- Background task finished: Video saved to {output_video_path} ---")
+    print(f"--- Background task finished: Video and JSON data saved. ---")

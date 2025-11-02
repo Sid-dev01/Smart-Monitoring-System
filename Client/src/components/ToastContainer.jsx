@@ -1,64 +1,56 @@
-import { useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { CheckCircle, AlertCircle, Info, X } from 'lucide-react';
+import React from 'react';
 import { useStore } from '../store/useStore';
+import { motion, AnimatePresence } from 'framer-motion';
+import { X, CheckCircle, AlertTriangle } from 'lucide-react';
 
-const Toast = ({ toast }) => {
-  const { removeToast } = useStore();
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      removeToast(toast.id);
-    }, toast.duration || 3000);
-
-    return () => clearTimeout(timer);
-  }, [toast.id, toast.duration, removeToast]);
-
-  const icons = {
-    success: <CheckCircle className="w-5 h-5" />,
-    error: <AlertCircle className="w-5 h-5" />,
-    info: <Info className="w-5 h-5" />,
-  };
-
-  const colors = {
-    success: 'bg-green-500',
-    error: 'bg-red-500',
-    info: 'bg-blue-500',
-  };
-
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: -50, scale: 0.9 }}
-      animate={{ opacity: 1, y: 0, scale: 1 }}
-      exit={{ opacity: 0, scale: 0.9 }}
-      className="flex items-center space-x-3 bg-white dark:bg-gray-800 rounded-lg shadow-xl p-4 min-w-[300px] max-w-md"
-    >
-      <div className={`${colors[toast.type]} text-white p-2 rounded-lg`}>
-        {icons[toast.type]}
-      </div>
-      <div className="flex-1">
-        <p className="font-medium text-gray-900 dark:text-white">
-          {toast.message}
-        </p>
-      </div>
-      <button
-        onClick={() => removeToast(toast.id)}
-        className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200"
-      >
-        <X className="w-5 h-5" />
-      </button>
-    </motion.div>
-  );
+// Define icons for different toast types
+const icons = {
+  success: <CheckCircle className="w-5 h-5 text-green-500" />,
+  error: <AlertTriangle className="w-5 h-5 text-red-500" />,
 };
 
 const ToastContainer = () => {
-  const { toasts } = useStore();
+  // Get the list of toasts and the remove function from the store
+  const { toasts, removeToast } = useStore();
+
+  // If the toasts list is empty, this component renders nothing.
+  // This also prevents the .map() error if 'toasts' was undefined.
+  if (!toasts || toasts.length === 0) {
+    return null;
+  }
 
   return (
-    <div className="fixed top-20 right-4 z-50 space-y-2">
+    // This div positions the container in the top-right corner
+    <div className="fixed top-4 right-4 z-[9999] w-80 space-y-3">
       <AnimatePresence>
+        {/* This is the .map() that was crashing.
+            Now 'toasts' is a guaranteed array from our store. */}
         {toasts.map((toast) => (
-          <Toast key={toast.id} toast={toast} />
+          <motion.div
+            key={toast.id}
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.3 }}
+            className="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-4 flex items-start space-x-3"
+          >
+            {/* Icon (success or error) */}
+            <div className="flex-shrink-0">
+              {icons[toast.type] || <AlertTriangle className="w-5 h-5 text-gray-500" />}
+            </div>
+            
+            {/* Message */}
+            <div className="flex-1">
+              <p className="text-sm font-medium text-gray-900 dark:text-white">
+                {toast.message}
+              </p>
+            </div>
+            
+            {/* Close Button */}
+            <button onClick={() => removeToast(toast.id)} className="p-1 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700">
+              <X className="w-4 h-4 text-gray-500" />
+            </button>
+          </motion.div>
         ))}
       </AnimatePresence>
     </div>
